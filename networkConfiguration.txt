@@ -1,0 +1,85 @@
+1) From http://sumo.dlr.de/wiki/Networks/Import/OpenStreetMap select and copy 
+<polygonTypes>
+    <polygonType id="waterway"                name="water"       color=".71,.82,.82" layer="-4"/>
+    <polygonType id="natural"                 name="natural"     color=".55,.77,.42" layer="-4"/>
+    <polygonType id="natural.water"           name="water"       color=".71,.82,.82" layer="-4"/>
+    <polygonType id="natural.wetland"         name="water"       color=".71,.82,.82" layer="-4"/>
+    <polygonType id="natural.wood"            name="forest"      color=".55,.77,.42" layer="-4"/>
+    <polygonType id="natural.land"            name="land"        color=".98,.87,.46" layer="-4"/>
+
+    <polygonType id="landuse"                 name="landuse"     color=".76,.76,.51" layer="-3"/>
+    <polygonType id="landuse.forest"          name="forest"      color=".55,.77,.42" layer="-3"/>
+    <polygonType id="landuse.park"            name="park"        color=".81,.96,.79" layer="-3"/>
+    <polygonType id="landuse.residential"     name="residential" color=".92,.92,.89" layer="-3"/>
+    <polygonType id="landuse.commercial"      name="commercial"  color=".82,.82,.80" layer="-3"/>
+    <polygonType id="landuse.industrial"      name="industrial"  color=".82,.82,.80" layer="-3"/>
+    <polygonType id="landuse.military"        name="military"    color=".60,.60,.36" layer="-3"/>
+    <polygonType id="landuse.farm"            name="farm"        color=".95,.95,.80" layer="-3"/>
+    <polygonType id="landuse.greenfield"      name="farm"        color=".95,.95,.80" layer="-3"/>
+    <polygonType id="landuse.village_green"   name="farm"        color=".95,.95,.80" layer="-3"/>
+
+    <polygonType id="tourism"                 name="tourism"     color=".81,.96,.79" layer="-2"/>
+    <polygonType id="military"                name="military"    color=".60,.60,.36" layer="-2"/>
+    <polygonType id="sport"                   name="sport"       color=".31,.90,.49" layer="-2"/>
+    <polygonType id="leisure"                 name="leisure"     color=".81,.96,.79" layer="-2"/>
+    <polygonType id="leisure.park"            name="tourism"     color=".81,.96,.79" layer="-2"/>
+    <polygonType id="aeroway"                 name="aeroway"     color=".50,.50,.50" layer="-2"/>
+    <polygonType id="aerialway"               name="aerialway"   color=".20,.20,.20" layer="-2"/>
+
+    <polygonType id="shop"                    name="shop"        color=".93,.78,1.0" layer="-1"/>
+    <polygonType id="historic"                name="historic"    color=".50,1.0,.50" layer="-1"/>
+    <polygonType id="man_made"                name="building"    color="1.0,.90,.90" layer="-1"/>
+    <polygonType id="building"                name="building"    color="1.0,.90,.90" layer="-1"/>
+    <polygonType id="amenity"                 name="amenity"     color=".93,.78,.78" layer="-1"/>
+    <polygonType id="amenity.parking"         name="parking"     color=".72,.72,.70" layer="-1"/>
+    <polygonType id="power"                   name="power"       color=".10,.10,.30" layer="-1" discard="true"/>
+    <polygonType id="highway"                 name="highway"     color=".10,.10,.10" layer="-1" discard="true"/>
+
+    <polygonType id="boundary" name="boundary"    color="1.0,.33,.33" layer="0" fill="false" discard="true"/>
+    <polygonType id="admin_level" name="admin_level"    color="1.0,.33,.33" layer="0" fill="false" discard="true"/>
+</polygonTypes>
+
+2) Copy the content in a text file
+3) Remove the line:
+	<polygonType id="power"                   name="power"       color=".10,.10,.30" layer="-1" discard="true"/>
+4) Save in a file as typemap.xml
+5) Download osm data
+6) Save the osm file in the same folder as the typemap.xml file
+7) Copy the randomTrips.py file from the SUMO folder (SUMO/tools or SUMO/tools/trips accoding to SUMO version) to the folder with the osm and typemap files
+8) Execute the commands:
+C:\Program Files (x86)\DLR\Sumo\bin>start-command-line.bat
+C:\Users\Administrateur.BALZAC14\Documents\Marielba\Projet\OSM>netconvert --osm-files map.osm -o map.net.xml
+C:\Users\Administrateur.BALZAC14\Documents\Marielba\Projet\OSM>polyconvert --net-file map.net.xml --osm-files map.osm --type-file typemap.xml -o map.poly.xml
+C:\Users\Administrateur.BALZAC14\Documents\Marielba\Projet\OSM>python randomTrips.py -n map.net.xml -e 100 -l
+C:\Users\Administrateur.BALZAC14\Documents\Marielba\Projet\OSM>python randomTrips.py -n map.net.xml -r map.rou.xml -e 100 -l
+C:\Users\Administrateur.BALZAC14\Documents\Marielba\Projet\OSM>sumo-gui map.sumo.cfg
+C:\Users\Administrateur.BALZAC14\Documents\Marielba\Projet\OSM>python randomTrips.py -n montreal.net.xml -r montreal.rou.xml -e 10000 -L --fringe-factor=10
+C:\Users\Administrateur.BALZAC14\Documents\Marielba\Projet\OSM>od2trips -n taz.xml -d matrice_od.txt -o total.trips.xml -v
+C:\Users\Administrateur.BALZAC14\Documents\Marielba\Projet\OSM>sumo -c montreal.sumo.cfg -b 28800 -e 32400 --step-length 0.1
+
+Procedure to generate the required simulation files:
+1) Execute the tazs.py script (you will need the taz_edges.csv file)
+2) From the taz.xml file just generated, remove the following characters: ', ], and [
+3) Execute the command od2trips -n taz.xml -d matrice_od.txt -o total.trips.xml -v
+4) Execute the read_trips_file.py script. It will read the information from the black_list.xml and total_trips.xml files and generate three additional xml files: montreal.trips, invalid_trips and incomplete_trips.
+5) Place the montreal.trips.xml file in the folder containing the simulation configuration files (.net, .sumo.cfg)
+6) Add the montreal.trips.xml file to the montreal.sumo.cfg file. 
+7) Start the simulation.
+
+
+python mpl_dump_onNet.py -n montreal.net.xml -d edgeDump20.xml -w 0.5 -W 3 -c -1000 -C 1000 -s True
+python mpl_dump_onNet.py -n montreal.net.xml -d edgeDump20.xml -w 0.5 -W 3 -c -0.1 -C 0.1 -s True --color-map "0:#00c000,.25:#408040,.5:#808080,.75:#804040,1:#c00000"
+python mpl_dump_onNet.py -n montreal.net.xml -d edgeDump20.xml -w 0.5 -W 3 -c -0.1 -C 0.1 -s True --color-map "0:#0000c0,.25:#408040,.5:#808080,.75:#804040,1:#c00000"
+python mpl_dump_onNet.py -n montreal.net.xml -d edgeDump20.xml -w 0.5 -W 3 -c -1000 -C 1000 -s True --color-map "0:#0000c0,.25:#408040,.5:#808080,.75:#804040,1:#c00000"
+python mpl_dump_onNet.py -n montreal.net.xml -d edgeDump20.xml -w 0.5 -W 3 -c -1000 -C 1000 -s True --color-map "0:#0000c0,.25:#408040,.5:#808080,.75:#804040,1:#c00000" --xticks "0,3000,500,10" --yticks "100,5000,500,10"  --xlim "0,3000" --ylim "100,5000"
+python mpl_dump_onNet.py -n montreal.net.xml -d edgeDump20.xml -w 0.5 -W 3 -c -1000 -C 1000 -s True --color-map "0:#00ffbe,.25:#fcff00,.5:#ffc800,.75:#ff8c64,1:#ff0000" --xticks "0,3000,500,10" --yticks "100,5000,500,10"  --xlim "0,3000" --ylim "100,5000" --size "2000,2000" --values "entered,speed"
+python mpl_dump_onNet.py -n montreal.net.xml -d edgeDump20.xml -w 0.5 -W 3 -c -1000 -C 1000 -s True --color-map "0:#c8ffc8,.25:#fcff00,.5:#ffc800,.75:#ff8c64,1:#ff0000" --xticks "0,3000,500,10" --yticks "100,5000,500,10"  --xlim "0,3000" --ylim "100,5000" --size "2000,2000" --values "entered,waitingTime"
+python mpl_dump_onNet.py -n montreal.net.xml -d edgeDump20.xml -w 0.5 -W 3 -c -1000 -C 1000 -s True --color-map "0:#d2d2d2,.25:#fcff00,.5:#ffc800,.75:#ff8c64,1:#ff0000" --xticks "0,3000,500,10" --yticks "100,5000,500,10"  --xlim "0,3000" --ylim "100,5000" --size "2000,2000" --values "entered,waitingTime"
+python mpl_dump_onNet.py -n montreal.net.xml -d edgeDump20.xml -w 0.5 -W 3 -c -1000 -C 1000 -s True --color-map "0:#d2d2d2,.25:#82beff,.5:#ffc800,.75:#ff8264,1:#ff0000" --xticks "0,3000,500,10" --yticks "100,5000,500,10"  --xlim "0,3000" --ylim "100,5000" --size "2000,2000" --values "entered,waitingTime"
+python mpl_dump_onNet.py -n montreal.net.xml -d edgeDump20.xml -w 0.5 -W 3 -c -1000 -C 1000 -s True --color-map "0:#ff0000,.25:#ff8264,.5:#ffc800,.75:#82beff,1:#96ff4b" --xticks "0,3000,500,10" --yticks "100,5000,500,10"  --xlim "0,3000" --ylim "100,5000" --size "2000,2000" --values "entered,speed"
+python mpl_dump_onNet.py -n montreal.net.xml -d edgeDump25.xml -w 0.5 -W 3 -c -1000 -C 1000 -s True --xticks "0,3000,500,10" --yticks "100,5000,500,10"  --xlim "0,3000" --ylim "100,5000" --size "2000,2000" --values "speed,speed"
+python plot_net_dump.py -n montreal.net.xml -i "edgeDump56.xml,edgeDump56.xml" -v -m "traveltime,traveltime" -o plot_net_dump.png
+
+C:\Users\Administrateur.BALZAC14\Documents\Marielba\Projet\OSM\Montreal>od2trips -n tazs_mu.xml -d matrice_od.txt -o new_montreal.trips.xml --flow-output new_montreal.flow.xml
+C:\Users\Administrateur.BALZAC14\Documents\Marielba\Projet\OSM\Montreal>od2trips -n taz.xml -d matrice_od.txt -o montreal.trips.xml --flow-output montreal.flow.xml --departspeed random -s 4
+C:\Users\Administrateur.BALZAC14\Documents\Marielba\Projet\OSM\Montreal>duarouter --trip-files total.trips.xml --net-file montreal.net.xml --output-file duarouter.rou.xml --repair.from True --repair.to True --with-taz True -d taz.xml

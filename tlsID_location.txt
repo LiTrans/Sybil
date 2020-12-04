@@ -1,0 +1,182 @@
+1316 Rue Wellington/Rue de la Montagne/Rue du Square Gallery
+1382 Rue Sherbrooke Est/Avenue Coloniale
+1387 Avenue Viger Ouest/Rue Saint-Alexandre
+1400 Boulevard De Maisonneuve Ouest/Rue City-Councillors
+1404 Rue Guy/Rue Saint-Jacques
+1419 Rue Saint-Jacques/Rue du Square Victoria
+1449 Boulevard De Maisonneuve Ouest/Rue Jeanne-Mance
+1478 Rue du Square Victoria/Avenue Viger Ouest
+1511 Rue Lucien-L'Allier/Rue Saint-Jacques
+1526 Rue Saint-Antoine Ouest/Rue Jean-D'Estrees
+1527 Avenue du President-Kennedy/Avenue McGill College
+1536 Rue Jean-D'Estrees/Rue Saint-Jacques
+1566 Rue de la Montagne/Avenue des Canadiens-de-Montreal
+1573 Rue Saint-Antoine Ouest/Rue du Square Victoria
+1574 Avenue de l'Hotel-de-Ville/Rue Saint-Antoine Est
+1589 Rue Saint-Antoine Ouest/Rue Saint-Francois-Xavier
+1696 Cote du Beaver Hall/Rue Belmont
+2028 Rue Notre-Dame Ouest/Acces Autoroute Ville-Marie/Rue de la Cathedrale
+2047 Rue Berri/Rue de La Gauchetiere Est
+235 Rue Guy/Rue Notre-Dame Ouest
+237 Rue Guy/Rue Saint-Antoine Ouest
+240 Rue de la Montagne/Rue Notre-Dame Ouest
+241 Rue de la Montagne/Rue Ottawa/Rue Rioux
+242 Rue de la Montagne/Rue William
+2437 Rue Saint-Andre/Rue Saint-Antoine Est
+2656 Rue Saint-Andre/Avenue Viger Est
+2850 Rue Clark/Boulevard De Maisonneuve Ouest
+288 Rue Aylmer/Boulevard De Maisonneuve Ouest
+289 Avenue du President-Kennedy/Rue Aylmer
+290 Rue Aylmer/Place Phillips/Rue Sainte-Catherine Ouest
+291 Rue Sherbrooke Ouest/Rue Aylmer
+292 Boulevard De Maisonneuve Ouest/Rue Bishop
+293 Rue Sainte-Catherine Ouest/Rue Bishop
+294 Rue Sherbrooke Ouest/Rue Bishop
+295 Boulevard De Maisonneuve Ouest/Rue De Bleury
+296 Avenue du President-Kennedy/Rue De Bleury
+297 Rue Sainte-Catherine Ouest/Rue De Bleury
+298 Rue Sherbrooke Ouest/Avenue du Parc/Rue De Bleury
+299 Rue Cathcart/Boulevard Robert-Bourassa
+300 Rue Sherbrooke Ouest/Rue Simpson
+304 Rue Crescent/Boulevard De Maisonneuve Ouest
+305 Rue Crescent/Rue Sainte-Catherine Ouest
+306 Rue Drummond/Boulevard De Maisonneuve Ouest
+3064 Rue Sherbrooke Ouest/Rue Crescent
+307 Rue Drummond/Rue Sainte-Catherine Ouest
+308 Rue Drummond/Rue Sherbrooke Ouest
+311 Rue Sherbrooke Ouest/Rue Durocher
+315 Avenue du President-Kennedy/Rue City-Councillors
+316 Rue Guy/Boulevard De Maisonneuve Ouest
+317 Rue Guy/Rue Sainte-Catherine Ouest
+320 Rue Sherbrooke Ouest/Rue Hutchison
+323 Avenue du President-Kennedy/Rue Jeanne-Mance
+325 Rue Jeanne-Mance/Rue Sainte-Catherine Ouest
+326 Rue Sherbrooke Ouest/Rue Jeanne-Mance
+328 Boulevard De Maisonneuve Ouest/Rue Mackay
+329 Rue Sainte-Catherine Ouest/Rue Mackay
+330 Avenue McGill College/Boulevard De Maisonneuve Ouest
+331 Rue Mansfield/Boulevard De Maisonneuve Ouest
+332 Rue Metcalfe/Boulevard De Maisonneuve Ouest
+333 Rue de la Montagne/Boulevard De Maisonneuve Ouest
+334 Rue Peel/Boulevard De Maisonneuve Ouest
+335 Boulevard Saint-Laurent/Boulevard De Maisonneuve Est/Boulevard De Maisonneuve Ouest
+336 Rue Saint-Dominique/Boulevard De Maisonneuve Est
+338 Boulevard De Maisonneuve Ouest/Rue Saint-Urbain
+339 Rue Stanley/Boulevard De Maisonneuve Ouest
+340 Avenue Union/Boulevard De Maisonneuve Ouest
+341 Boulevard Robert-Bourassa/Boulevard De Maisonneuve Ouest
+342 Rue Mansfield/Rue Sainte-Catherine Ouest
+343 Rue Sherbrooke Ouest/Rue Mansfield
+344 Avenue McGill College/Rue Sainte-Catherine Ouest
+345 Rue Sherbrooke Ouest/Avenue McGill College
+346 Rue Metcalfe/Rue Sainte-Catherine Ouest
+347 Rue Sherbrooke Ouest/Rue Metcalfe
+351 Rue de la Montagne/Rue Sainte-Catherine Ouest
+352 Rue de la Montagne/Rue Sherbrooke Ouest
+353 Rue Ontario Ouest/Rue Saint-Urbain/Avenue du President-Kennedy
+354 Rue Ontario Est/Rue Ontario Ouest/Boulevard Saint-Laurent
+356 Rue Peel/Rue Sainte-Catherine Ouest
+357 Rue Sherbrooke Ouest/Rue Peel
+358 Avenue du President-Kennedy/Avenue Union
+359 Avenue du President-Kennedy/Boulevard Robert-Bourassa
+360 Rue Saint-Alexandre/Rue Sainte-Catherine Ouest
+361 Rue Sainte-Catherine Est/Boulevard Saint-Laurent/Rue Sainte-Catherine Ouest
+364 Rue Saint-Urbain/Rue Sainte-Catherine Ouest
+365 Rue Stanley/Rue Sainte-Catherine Ouest
+366 Avenue Union/Rue Sainte-Catherine Ouest
+367 Boulevard Robert-Bourassa/Rue Sainte-Catherine Ouest
+368 Rue Sherbrooke Ouest/Rue Sherbrooke Est/Boulevard Saint-Laurent
+371 Rue Sherbrooke Ouest/Rue Saint-Urbain
+373 Rue Sherbrooke Ouest/Rue Stanley
+374 Rue Sherbrooke Ouest/Rue University/Boulevard Robert-Bourassa
+3743 Rue Jean-D'Estrees/Rue Notre-Dame Ouest/Rue Murray
+376 Cote du Beaver Hall/Rue de La Gauchetiere Ouest
+377 Cote du Beaver Hall/Rue du Square Victoria/Avenue Viger Ouest
+378 Boulevard Robert-Bourassa/Rue Belmont
+379 Rue de La Gauchetiere Ouest/Rue de la Cathedrale
+380 Rue Saint-Antoine Ouest/Rue de la Cathedrale
+381 Rue Saint-Jacques/Rue de la Cathedrale
+383 Rue de l'Inspecteur/Rue Notre-Dame Ouest
+384 Rue de La Gauchetiere Ouest/Rue Mansfield
+385 Rue Peel/Rue de La Gauchetiere Ouest/Avenue des Canadiens-de-Montreal
+386 Rue de La Gauchetiere Ouest/Boulevard Robert-Bourassa
+387 Rue Lucien-L'Allier/Rue Saint-Antoine Ouest
+388 Rue Saint-Antoine Ouest/Rue Mansfield
+389 Rue Saint-Jacques/Sortie Autoroute Ville-Marie/Rue de l'Inspecteur/Rue Mansfield
+390 Rue McGill/Rue Notre-Dame Ouest/Rue Notre-Dame Oues
+391 Rue Saint-Antoine Ouest/Rue du Square Victoria
+392 Rue McGill/Rue Saint-Jacques/Rue du Square Victoria
+396 Rue de la Montagne/Rue Saint-Antoine Ouest
+397 Rue de la Montagne/Rue Saint-Jacques
+399 Rue Peel/Rue Notre-Dame Ouest
+402 Rue Peel/Rue Saint-Antoine Ouest
+403 Rue Peel/Rue Saint-Jacques
+4032 Rue Saint-Urbain/Rue de Montigny
+406 Rue Saint-Antoine Ouest/Boulevard Robert-Bourassa
+407 Rue Saint-Jacques/Boulevard Robert-Bourassa
+409 Boulevard Robert-Bourassa/Avenue Viger Ouest
+410 Place Phillips/Cote du Beaver Hall/Boulevard Rene-Levesque Ouest
+411 Boulevard Rene-Levesque Ouest/Rue De Bleury
+412 Boulevard Rene-Levesque Ouest/Rue Metcalfe/Rue de la Cathedrale
+413 Boulevard Rene-Levesque Ouest/Rue Lucien-L'Allier/Rue Crescent
+414 Boulevard Rene-Levesque Ouest/Rue Drummond
+416 Boulevard Rene-Levesque Ouest/Rue Guy
+417 Boulevard Rene-Levesque Ouest/Rue Jeanne-Mance
+418 Boulevard Rene-Levesque Ouest/Rue Mackay
+419 Boulevard Rene-Levesque Ouest/Rue Mansfield
+420 Rue de la Montagne/Boulevard Rene-Levesque Ouest
+421 Rue Peel/Boulevard Rene-Levesque Ouest
+422 Boulevard Rene-Levesque Ouest/Rue Saint-Alexandre
+425 Rue Stanley/Boulevard Rene-Levesque Ouest
+427 Boulevard Rene-Levesque Ouest/Avenue Union
+428 Boulevard Robert-Bourassa/Boulevard Rene-Levesque Ouest
+429 Rue Amherst/Boulevard Rene-Levesque Est
+432 Rue Berri/Boulevard Rene-Levesque Est
+433 Rue Berri/Rue Saint-Antoine Est
+434 Rue Berri/Avenue Viger Est
+435 Rue de La Gauchetiere Ouest/Rue De Bleury
+436 Rue De Bleury/Rue Saint-Pierre/Rue Saint-Antoine Ouest
+437 Rue De Bleury/Avenue Viger Ouest
+439 Avenue de l'Hotel-de-Ville/Boulevard Rene-Levesque Est
+441 Boulevard Rene-Levesque Est/Rue Saint-Denis
+442 Boulevard Rene-Levesque Est/Rue Saint-Hubert
+443 Boulevard Rene-Levesque Est/Boulevard Rene-Levesque Ouest/Boulevard Saint-Laurent
+444 Boulevard Rene-Levesque Ouest/Rue Saint-Urbain
+445 Boulevard Rene-Levesque Est/Rue Sanguinet
+447 Rue Jeanne-Mance/Avenue Viger Ouest
+448 Rue de La Gauchetiere Est/Rue Saint-Denis
+449 Rue Saint-Hubert/Rue de La Gauchetiere Est
+456 Rue Saint-Denis/Rue Bonsecours/Rue Saint-Antoine Est
+457 Rue Saint-Hubert/Rue Saint-Antoine Est
+459 Rue Saint-Denis/Avenue Viger Est
+460 Rue Saint-Antoine Est/Rue Saint-Antoine Ouest/Boulevard Saint-Laurent
+461 Rue Saint-Urbain/Cote de la Place D'Armes/Rue Saint-Antoine Ouest
+463 Rue Saint-Hubert/Avenue Viger Est
+466 Boulevard Saint-Laurent/Avenue Viger Ouest/Avenue Viger Est
+467 Rue Saint-Urbain/Avenue Viger Ouest
+472 Rue Amherst/Rue Ontario Est
+478 Rue Berri/Boulevard De Maisonneuve Est
+479 Rue Ontario Est/Rue Berri
+481 Rue Berri/Rue Sainte-Catherine Est
+4813 Rue Notre-Dame Ouest/Rue Duke
+482 Rue Sherbrooke Est/Rue Berri
+487 Rue Ontario Est/Avenue de l'Hotel-de-Ville
+488 Avenue de l'Hotel-de-Ville/Rue Sainte-Catherine Est
+489 Rue Sherbrooke Est/Avenue de l'Hotel-de-Ville
+493 Rue Saint-Denis/Boulevard De Maisonneuve Est
+494 Rue Saint-Hubert/Boulevard De Maisonneuve Est
+495 Rue Sanguinet/Boulevard De Maisonneuve Est
+496 Rue Ontario Est/Rue Saint-Andre
+497 Rue Ontario Est/Rue Saint-Denis
+498 Rue Saint-Hubert/Rue Ontario Est
+499 Rue Ontario Est/Rue Sanguinet
+505 Rue Sherbrooke Est/Rue Saint-Andre
+506 Rue Saint-Denis/Rue Sainte-Catherine Est
+507 Rue Saint-Hubert/Rue Sainte-Catherine Est
+508 Rue Sanguinet/Rue Sainte-Catherine Est
+510 Rue Saint-Denis/Rue Sherbrooke Est
+511 Rue Saint-Hubert/Rue Sherbrooke Est
+512 Rue Sherbrooke Est/Rue Sanguinet
+6283 Rue Clark/Rue de Montigny/Boulevard De Maisonneuve Ouest
+9368 Rue Notre-Dame Ouest/Rue Nazareth
+992 Avenue de l'Hotel-de-Ville/Avenue Viger Est

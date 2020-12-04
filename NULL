@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 26/03/2019 18:02:10 by SUMO gui Version 0.28.0
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumo-gui.exeConfiguration.xsd">
+
+    <input>
+        <net-file value="montreal3_A_1.net.xml"/>
+        <route-files value="montreal.trips.xml"/>
+        <additional-files value="montreal.additional.xml"/>
+    </input>
+
+    <time>
+        <begin value="28800"/>
+        <end value="32400"/>
+        <step-length value="0.1"/>
+    </time>
+
+    <routing>
+        <device.rerouting.with-taz value="true"/>
+    </routing>
+
+    <traci_server>
+        <remote-port value="26961"/>
+    </traci_server>
+
+</configuration>
+-->
+
+<detector xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/det_e1_file.xsd">
+    <interval begin="0.00" end="28800.00" id="TLS376_30002_InductLoopOn_205657782#4_0" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="0.00" end="28800.00" id="TLS376_30002_InductLoopOn_205657782#4_1" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="0.00" end="28800.00" id="TLS376_30002_InductLoopOn_-361607072_0" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="0.00" end="28800.00" id="TLS376_30002_InductLoopOn_-361607072_1" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="0.00" end="28800.00" id="TLS376_30002_InductLoopOn_466675150_0" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="0.00" end="28800.00" id="TLS386_10001_InductLoopOn_361607071_0" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="0.00" end="28800.00" id="TLS386_10001_InductLoopOn_361607071_1" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="0.00" end="28800.00" id="TLS386_10001_InductLoopOn_456316923_0" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="0.00" end="28800.00" id="TLS386_10001_InductLoopOn_456316923_1" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="0.00" end="28800.00" id="TLS386_10001_InductLoopOn_456316923_2" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="0.00" end="28800.00" id="TLS386_10001_InductLoopOn_456316923_3" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="0.00" end="28800.00" id="TLS386_10001_InductLoopOn_36606095_0" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="0.00" end="28800.00" id="TLS386_10001_InductLoopOn_-479572754#0_0" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="0.00" end="28800.00" id="TLS386_10001_InductLoopOn_-479572754#0_1" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="0.00" end="28800.00" id="TLS386_10001_InductLoopOn_-479572754#0_2" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="0.00" end="28800.00" id="TLS428_30003_InductLoopOn_453963142_0" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="0.00" end="28800.00" id="TLS428_30003_InductLoopOn_453963142_1" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="0.00" end="28800.00" id="TLS428_30003_InductLoopOn_479572754#1_0" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="0.00" end="28800.00" id="TLS428_30003_InductLoopOn_479572754#1_1" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="0.00" end="28800.00" id="TLS428_30003_InductLoopOn_479572754#1_2" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="0.00" end="28800.00" id="TLS428_30003_InductLoopOn_-385879098#0_0" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="0.00" end="28800.00" id="TLS428_30003_InductLoopOn_-385879098#0_1" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="0.00" end="28800.00" id="TLS428_30003_InductLoopOn_-300627772#1_0" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="0.00" end="28800.00" id="TLS428_30003_InductLoopOn_-300627772#1_1" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0"/>
+</detector>
